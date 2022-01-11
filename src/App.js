@@ -1,10 +1,14 @@
 import Navbar from "./components/Navbar";
+import Articles from "./components/Articles";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="">
+    <>
       <Navbar />
-    </div>
+      <Articles />
+      <Footer />
+    </>
   );
 }
 

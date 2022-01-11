@@ -18,3 +18,7 @@ button:focus {
   border: none;
   outline: none;
 }
+
+input::placeholder {
+  font-size: 1.1rem;
+}
