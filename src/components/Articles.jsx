@@ -1,5 +1,11 @@
+import Article from "./Article";
+
 function Articles() {
-  return <div>Articles</div>;
+  return (
+    <div className="container mx-auto">
+      <Article />
+    </div>
+  );
 }
 
 export default Articles;
